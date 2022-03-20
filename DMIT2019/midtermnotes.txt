@@ -1,0 +1,37 @@
+DML - Data Manipulation Language
+Select Insert Update Delete
+Have to commit manually
+
+DDL - Data Definition Language
+Create Alter Drop
+Commits Immediately
+
+Oldest Date - Jan 01 4712BC
+Newest Date - Dec 31 9999AD
+
+Sequence - Sequential Number Generator
+Can start with negative
+nocache means the value of the sequence is not preallocated
+ 
+Program Unit - Named block of PL/SQL code
+Procedure Function Package
+
+Procedure - can manipulate and change multiple values
+Function - returns a single value
+
+RaiseApplicationError cannot return a value in a function
+Takes two arguments, number range and a statement.
+number range is -20,999 and -20,000. Statement limit is 2048 characters
+
+Create Package, Create Package Body
+
+Trigger Firing Order
+1- Before Statement
+2- For each row
+a) Virtual Tables are populated
+b) Before Row level trigger fires
+c) Data validation
+d) DML Statement happens in database
+e) After Row level trigger fries
+f) Virtual tables are cleared
+3) After Statement level trigger fires
