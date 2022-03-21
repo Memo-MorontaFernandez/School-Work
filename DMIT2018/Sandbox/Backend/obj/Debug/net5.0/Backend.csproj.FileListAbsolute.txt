@@ -1,0 +1,12 @@
+C:\gh\sep-2021-a01-workbook-Memo-MorontaFernandez\src\Sandbox\Backend\obj\Debug\net5.0\Backend.csproj.AssemblyReference.cache
+C:\gh\sep-2021-a01-workbook-Memo-MorontaFernandez\src\Sandbox\Backend\obj\Debug\net5.0\Backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\gh\sep-2021-a01-workbook-Memo-MorontaFernandez\src\Sandbox\Backend\obj\Debug\net5.0\Backend.AssemblyInfoInputs.cache
+C:\gh\sep-2021-a01-workbook-Memo-MorontaFernandez\src\Sandbox\Backend\obj\Debug\net5.0\Backend.AssemblyInfo.cs
+C:\gh\sep-2021-a01-workbook-Memo-MorontaFernandez\src\Sandbox\Backend\obj\Debug\net5.0\Backend.csproj.CoreCompileInputs.cache
+C:\gh\sep-2021-a01-workbook-Memo-MorontaFernandez\src\Sandbox\Backend\bin\Debug\net5.0\Backend.deps.json
+C:\gh\sep-2021-a01-workbook-Memo-MorontaFernandez\src\Sandbox\Backend\bin\Debug\net5.0\Backend.dll
+C:\gh\sep-2021-a01-workbook-Memo-MorontaFernandez\src\Sandbox\Backend\bin\Debug\net5.0\ref\Backend.dll
+C:\gh\sep-2021-a01-workbook-Memo-MorontaFernandez\src\Sandbox\Backend\bin\Debug\net5.0\Backend.pdb
+C:\gh\sep-2021-a01-workbook-Memo-MorontaFernandez\src\Sandbox\Backend\obj\Debug\net5.0\Backend.dll
+C:\gh\sep-2021-a01-workbook-Memo-MorontaFernandez\src\Sandbox\Backend\obj\Debug\net5.0\ref\Backend.dll
+C:\gh\sep-2021-a01-workbook-Memo-MorontaFernandez\src\Sandbox\Backend\obj\Debug\net5.0\Backend.pdb
