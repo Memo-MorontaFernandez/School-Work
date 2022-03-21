@@ -1,0 +1,8 @@
+﻿footer {
+    padding: 0 1em;
+}
+
+.field-validation-error {
+    color: firebrick;
+    font-weight: bold;
+}
