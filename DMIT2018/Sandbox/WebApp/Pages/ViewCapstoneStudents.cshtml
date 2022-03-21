@@ -1,0 +1,65 @@
+﻿@page
+@model WebApp.Pages.ViewCapstoneStudentsModel
+@{
+}
+
+<h1>Capstone Students</h1>
+
+<p>Students in Capstone will be assigned to specific teams that work with a client to deliver a specific software product.</p>
+
+<blockquote>
+    <form method="get">
+        <label>
+            Partial Student Name
+            <input type="text" asp-for="PartialStudentName" placeholder="leave blank for all students" />
+        </label>
+        <button type="submit">Filter</button>
+    </form>
+</blockquote>
+
+<table>
+    <thead>
+        <tr>
+            <th>Student</th>
+            <th>Team</th>
+            <th>Client</th>
+            <th>Confirmed</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var student in Model.StudentAssignments)
+        {
+            var status = student.Assignment != null
+                    ? (student.Assignment.IsConfirmed ? "Confirmed" : "Temporary")
+                    : "Unassigned";
+
+                <tr>
+                    <td>@student.FirstName @student.LastName </td>
+                    <td>@student.Assignment?.Number</td>
+                    <td>@student.Assignment?.Client</td>
+                    <td>@status</td>
+                </tr>
+        }
+    </tbody>
+    <tfoot>
+        <tr colspan="4">
+            <td>
+                @{
+                    foreach (var pageRef in Model.Paging)
+                    {
+                        if (pageRef == Model.Paging.CurrentPage) // I can use the == because of PageRef type being a C# 9 record type
+                        {
+                            <b>@pageRef.Text</b>
+                        }
+                        else
+                        {
+                            <a title="Page @pageRef.Page" asp-page="/ViewCapstoneStudents" asp-route-currentpage="@pageRef.Page" 
+                               asp-route-PartialStudentName="@Model.PartialStudentName">@pageRef.Text</a>
+                        }
+                    }
+                }
+                (@Model.Paging.TotalItemCount items - Page x/@Model.Paging.PageCount)
+            </td>
+        </tr>
+    </tfoot>
+</table>
