@@ -1,0 +1,45 @@
+body {
+
+}
+
+header {
+	text-align: center;
+}
+
+header ul {
+	display: flex;
+	justify-content: center;
+}
+
+ul li:first-child {
+	margin-left: 0;
+}
+
+ul li {
+	margin: 0 1rem;
+	text-decoration-color: none;
+	list-style: none;
+}
+
+main {
+	display: flex;
+	background-color: lightblue;
+	padding: 1rem;
+}
+
+main img {
+	max-width: 25%;
+}
+
+main div {
+	margin: 0 1rem;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+}
+
+footer p {
+	font-weight: 800;
+}
